@@ -1,0 +1,31 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "sample react app created by mv",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "keywords": [
+    "react",
+    "app"
+  ],
+  "author": "muthu venkatesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-stormpath": "^4.0.0",
+    "history": "^4.6.3",
+    "parse": "^1.10.0",
+    "react": "^15.6.1",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^15.6.1",
+    "react-mdc-web": "^0.14.0",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2",
+    "react-stormpath": "^2.0.1",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
